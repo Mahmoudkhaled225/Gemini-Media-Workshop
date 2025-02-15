@@ -10,6 +10,16 @@ This project is a web application built with ASP.NET Core. It includes features 
 - Microsoft SQL Server
 - Custom Exception Handling Middleware
 
+## Architecture
+This project follows the Clean Architecture principles with four layers:
+1. **Presentation Layer**: Handles the user interface and API endpoints.
+2. **Service Layer**: Contains business logic and application services.
+3. **Domain Layer**: Includes the core business logic and domain entities.
+4. **Repository Layer**: Manages data access, external services, and other infrastructure concerns.
+
+Additionally, the project implements the Repository and Specification patterns to manage data access and querying.
+
+
 ## Getting Started
 
 ### Prerequisites
